@@ -25,4 +25,8 @@
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <PackageReference Include="Honeywell.BarcodeReader" Version="1.32.7.10" />
+	</ItemGroup>
+
 </Project>
